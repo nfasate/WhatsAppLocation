@@ -13,6 +13,8 @@
 		AEBC384A20F3763000BED5B7 /* WhatsAppLocation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEBC384820F3763000BED5B7 /* WhatsAppLocation.xcdatamodeld */; };
 		AEBC384C20F3763000BED5B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBC384B20F3763000BED5B7 /* Assets.xcassets */; };
 		AEBC384F20F3763000BED5B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBC384D20F3763000BED5B7 /* LaunchScreen.storyboard */; };
+		AEBC385720F3824B00BED5B7 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC385620F3824B00BED5B7 /* Artwork.swift */; };
+		AEBC385920F38EE700BED5B7 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC385820F38EE600BED5B7 /* LocationSearchTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AEBC384B20F3763000BED5B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEBC384E20F3763000BED5B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEBC385020F3763000BED5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBC385620F3824B00BED5B7 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		AEBC385820F38EE600BED5B7 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				AEBC384120F3763000BED5B7 /* AppDelegate.swift */,
+				AEBC385620F3824B00BED5B7 /* Artwork.swift */,
 				AEBC384320F3763000BED5B7 /* ViewController.swift */,
+				AEBC385820F38EE600BED5B7 /* LocationSearchTable.swift */,
 				AEBC384520F3763000BED5B7 /* Main.storyboard */,
 				AEBC384B20F3763000BED5B7 /* Assets.xcassets */,
 				AEBC384D20F3763000BED5B7 /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEBC384420F3763000BED5B7 /* ViewController.swift in Sources */,
+				AEBC385920F38EE700BED5B7 /* LocationSearchTable.swift in Sources */,
 				AEBC384220F3763000BED5B7 /* AppDelegate.swift in Sources */,
+				AEBC385720F3824B00BED5B7 /* Artwork.swift in Sources */,
 				AEBC384A20F3763000BED5B7 /* WhatsAppLocation.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6LPTF9P9H;
 				INFOPLIST_FILE = WhatsAppLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iDev.com.WhatsAppLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6LPTF9P9H;
 				INFOPLIST_FILE = WhatsAppLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iDev.com.WhatsAppLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
