@@ -4,7 +4,11 @@
 //
 //  Created by NILESH_iOS on 09/07/18.
 //  Copyright © 2018 iDev. All rights reserved.
-//
+// https://www.andrewcbancroft.com/2015/07/09/circular-progress-indicator-in-swift/
+//https://www.appcoda.com/realm-database-swift/
+//https://material.io/develop/ios/components/progress-indicators/activity-indicators/
+//https://medium.com/if-let-swift-programming/how-to-create-a-stretchable-tableviewheader-in-ios-ee9ed049aba3
+//https://github.com/HeroTransitions/Hero
 
 import UIKit
 import CoreData
